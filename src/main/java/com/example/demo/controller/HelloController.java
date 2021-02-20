@@ -11,12 +11,12 @@ public class HelloController {
 	
 	@GetMapping
 	public String index() {
-		return "Hello from Spring Boot and AWS";
+		return "Hola from Spring Boot and AWS";
 	}
 	
 	@GetMapping("/{name}")
 	public String index(@PathVariable("name") String name) {
-		return "Hello "+name+" from Spring Boot and AWS";
+		return "Hola "+name+" from Spring Boot and AWS";
 	}
 
 }
